@@ -1,0 +1,34 @@
+{
+  "name": "okayr",
+  "version": "0.0.1",
+  "description": "Open source no code OKR platform",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "node apps/api/dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaskazatel/okayr.git"
+  },
+  "keywords": [
+    "okr",
+    "okayr",
+    "open",
+    "source",
+    "no",
+    "code"
+  ],
+  "author": "Tomas Kazatel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomaskazatel/okayr/issues"
+  },
+  "homepage": "https://github.com/tomaskazatel/okayr#readme",
+  "devDependencies": {
+    "turbo": "^1.10.10"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
